@@ -441,7 +441,7 @@ nav ul li a {
   }
 }
 input[type=checkbox]:checked ~ nav {
-  animation: ouvrir-navigation 1s, opacity 1s;
+  animation: ouvrir-navigation 1s forwards, opacity 1s forwards;
 }
 
 /* Fermeture de la barre de navigation */
@@ -465,7 +465,7 @@ input[type=checkbox]:checked ~ nav {
   }
 }
 input[type=checkbox]:not(:checked) ~ nav {
-  animation: fermer-navigation 1s, fin-opacity 1s;
+  animation: fermer-navigation 1s forwards, fin-opacity 1s forwards;
 }
 
 #ketchup {
