@@ -1,0 +1,38 @@
+#ketchup {
+    background-color: $ketchup;
+}
+
+#mayonnaise {
+    background-color: $mayo;
+    color: black;
+}
+
+#moutarde {
+    background-color: $moutarde;
+}
+
+#salade {
+    background-color: $salade;
+}
+
+@media (min-width:1024px) {
+        #ketchup {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #mayonnaise {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #moutarde {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #salade {
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
